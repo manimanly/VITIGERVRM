@@ -17,6 +17,7 @@ public class DataDriven {
 	public void test(String user, String pass) {
 		System.out.print(user + "--->");
 		System.out.println(pass);
+		System.out.println("im the boss");
 
 	}
 
