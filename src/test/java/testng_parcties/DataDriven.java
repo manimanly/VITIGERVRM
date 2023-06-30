@@ -39,7 +39,7 @@ public class DataDriven {
 
 		XSSFSheet sheet = wb.getSheet("data2");
 		int rows = sheet.getLastRowNum();
-System.out.println(rows);
+		System.out.println(rows);
 		XSSFRow row = sheet.getRow(1);
 		int cell = row.getLastCellNum();
 		String value[][] = new String[rows][cell];
